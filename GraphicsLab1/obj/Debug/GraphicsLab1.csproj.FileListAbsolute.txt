@@ -8,3 +8,13 @@ C:\Users\loker\source\repos\GraphicsLab1\GraphicsLab1\obj\Debug\GraphicsLab1.csp
 C:\Users\loker\source\repos\GraphicsLab1\GraphicsLab1\obj\Debug\GraphicsLab1.csproj.CoreCompileInputs.cache
 C:\Users\loker\source\repos\GraphicsLab1\GraphicsLab1\obj\Debug\GraphicsLab1.exe
 C:\Users\loker\source\repos\GraphicsLab1\GraphicsLab1\obj\Debug\GraphicsLab1.pdb
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\bin\Debug\GraphicsLab1.exe.config
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\bin\Debug\GraphicsLab1.exe
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\bin\Debug\GraphicsLab1.pdb
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\obj\Debug\GraphicsLab1.csproj.AssemblyReference.cache
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\obj\Debug\GraphicsLab1.Form1.resources
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\obj\Debug\GraphicsLab1.Properties.Resources.resources
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\obj\Debug\GraphicsLab1.csproj.GenerateResource.cache
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\obj\Debug\GraphicsLab1.csproj.CoreCompileInputs.cache
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\obj\Debug\GraphicsLab1.exe
+C:\Users\loker\source\repos\GraphicsLab1\graphics1\GraphicsLab1\obj\Debug\GraphicsLab1.pdb

@@ -74,7 +74,7 @@ namespace GraphicsLab1
             int xPos = rnd.Next(0, 475), yPos = rnd.Next(0, 300),  size = rnd.Next(50, 200);
             int colorR = rnd.Next(0, 255), colorG = rnd.Next(0, 255), colorB = rnd.Next(0, 255);
 
-            draw_figure(figure, colorR, colorG, colorB, xPos, 0, size);
+            draw_figure(figure, colorR, colorG, colorB, xPos, yPos, size);
         }
 
         private void draw_figure(int figure, int colorR, int colorG, int colorB,  int xPos, int yPos, int size)
@@ -181,7 +181,7 @@ namespace GraphicsLab1
         {
             Random rnd = new Random();
             int figure = figureForm.SelectedIndex;
-            int xPos = rnd.Next(5, 475), yPos = rnd.Next(5, 300), size = rnd.Next(50, 200);
+            int xPos = rnd.Next(5, 475), yPos = rnd.Next(5, 300), size = rnd.Next(20, 100);
             bool pos = true;
             while(pos)
             {
@@ -191,7 +191,7 @@ namespace GraphicsLab1
                     if (xPos + size >= figures[i] && xPos <= figures[i] + figures[i + 2]) c++;
                     if (yPos + size >= figures[i + 1] && yPos <= figures[i + 1] + figures[i + 2]) c++;
                 }
-                if (c==0) { pos = false; } else { xPos = rnd.Next(5, 475); yPos = rnd.Next(5, 300); }
+                if (c==0) { pos = false; } else { /*xPos = rnd.Next(5, 475); yPos = rnd.Next(5, 300);*/ xPos++; yPos++; if (xPos >= 475) xPos = rnd.Next(5, 475); if (yPos >= 300) yPos = rnd.Next(5, 300); }
             }
             int colorR = rnd.Next(0, 255), colorG = rnd.Next(0, 255), colorB = rnd.Next(0, 255);
             int switchR = rnd.Next(1, 20), switchG = rnd.Next(1, 20), switchB = rnd.Next(1, 20);
@@ -254,7 +254,7 @@ namespace GraphicsLab1
                         draw_figure(figure, colorR, colorG, colorB, xPos, yPos, size);
                     }
                     mutex.ReleaseMutex();
-                    Thread.Sleep(50);
+                    Thread.Sleep(20);
                 }
 
             }
